@@ -1,0 +1,17 @@
+.bgmain {
+    background-color: rgba(96, 171, 1, 0.756);
+    min-height: 96vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 50px;
+    color: black;
+    font-style: italic;
+}
+.bgmain h2{
+    margin: 0px;
+    font-size: 50px;
+
+}
