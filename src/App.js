@@ -5,7 +5,9 @@ import Header from './Header';
 import Home from './Home';
 import Footer from './footer';
 import Products from './products';
-
+import 'bootstrap';
+import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/dropdown';
 function App() {
   return (
     <div className="App">
