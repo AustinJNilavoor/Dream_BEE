@@ -1,6 +1,9 @@
+import logo from "../src/Assets/Logo.png"
 const Header = () => {
     return(
-        <><nav>
+        <>
+        <img className="logo" src={logo} alt="null"/>
+        <nav>
             <div>
             <ul className="nav_links">
                 <li><a href="Home.js">Home</a></li>
