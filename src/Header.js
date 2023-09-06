@@ -1,5 +1,5 @@
 import logo from "../src/Assets/Logo.png"
-import Hamburger from 'hamburger-react'
+// import Hamburger from 'hamburger-react'
 const Header = ({ navbarOpen, setNavbarOpen }) => {
     return(
         <div className="navbar">
@@ -9,7 +9,6 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
             <ul className="nav_links">
                 <a href="Home.js">Home</a>
                 <a href="products.js">Products</a>
-                <a href="cart.js">Cart</a>
                 <a href="footer.js">Contact</a>
             </ul>
             </div>
