@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+.bgmain {
+    min-height: 96vh;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    padding-top: 100px;
+    color: black;
+    
+    
+}
+.bgmain p{
+    padding-top: 4px;
+    flex-direction:column;
+    font-size: 30px;
+    margin-left: auto
+}
+.bgmain h2{
+    padding-top: 0px;
+    font-family: 'Tourney', cursive;
+    font-weight: 400;
+    font-size: 65px;
+    justify-content: end;
+    margin-right: auto;
+    padding-right: 1000px;
+    backdrop-filter: sepia(90%);
+    color: gainsboro;
+}
+
+.bgmain h3{
+    font-family: 'Tourney', cursive;
+    font-weight: 400;
+    color: gainsboro;
+    font-size: 175px;
+    padding-right: 170px;
+    backdrop-filter: blur(300px);
+}
+
+.bgmain img{
+    min-height: 96vh;
+    padding: 0px;
+    margin: 0;
+}
+
+.himage{
+    background-color: rgba(96, 171, 1, 0.756);
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+a {
+    font-family: "Montserrat",sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color:#F29F05;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #040720;
+z-index: 2;
+position: fixed;
+width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    padding-left: 65px;
+    width: 77px;
+    height: 70px;
+}
+
+.nav_links {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+.nav_links a {
+    transition: all 0.3s ease 0s;
+    padding-left: 30px;
+    justify-content: flex-end;
+}
+
+.nav_links a:hover {
+    color: #0088a9;
+}

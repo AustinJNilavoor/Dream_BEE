@@ -1,8 +1,14 @@
+
 const Home = () => {
     return(
-        <div className="section">
-            <h1>Dream-Bee</h1>
+        <><div className="bgmain">
+            <p>
+                <h2>Elevate</h2>
+                <h3>Elevate</h3>
+            </p>
         </div>
+        </>
+        
     );
 }
 export default Home;
