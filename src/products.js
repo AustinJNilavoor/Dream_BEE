@@ -16,7 +16,7 @@ const Products = () => {
                         </ul>
                         <div className="alignment">
                             <div className="mini">
-                            <h4>Rs 2100/-</h4>
+                            <h4>Rs 1500/-</h4>
                             </div>
                         </div>
                         
@@ -55,7 +55,7 @@ const Products = () => {
                         </div>
                         
                     </div>
-                    
+
                 </div>
             </div>
         </div>
