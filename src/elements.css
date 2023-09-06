@@ -95,3 +95,81 @@ width: 100%;
     text-align: center;
     opacity: 80%;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Tektur:wght@500&family=Tourney:wght@100&display=swap');
+
+.Columns{
+    display: flex;
+    flex-direction: row;
+}
+
+.Columns :hover{
+    transform: translateY(-10px);
+
+}
+
+.box{
+    height: 360px;
+    width: 290px;
+    background-color: #FFC672;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transform: none;
+}
+
+
+.box h1{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Shantell+Sans&family=Tektur:wght@500&family=Tourney:wght@100&display=swap');
+
+.box h2{
+    
+
+}
+.box li{
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.mini{
+    height: 30px;
+    width: 160px;
+    background-color: honeydew;
+    padding: 0px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.alignment{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+
+.mini h4{
+    color: black;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
