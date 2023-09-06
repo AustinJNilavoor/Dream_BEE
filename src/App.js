@@ -11,6 +11,7 @@ import 'bootstrap/js/dist/dropdown';
 function App() {
   return (
     <div className="App">
+      <div className="bgimage"></div>
       <header className="App-header">
         <Header/>
       </header>

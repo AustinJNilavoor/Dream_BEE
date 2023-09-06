@@ -1,29 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
 .bgmain {
     min-height: 96vh;
     display: flex;
     font-size: calc(10px + 2vmin);
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(2px);
-    text-align: left;
     padding-top: 100px;
-    margin-top: auto;
-    padding-left: 50px;
     color: black;
-    font-style: italic;
     
     
 }
 .bgmain p{
     padding-top: 4px;
     flex-direction:column;
-    margin: 0px;
     font-size: 30px;
-
+    margin-left: auto
 }
 .bgmain h2{
     padding-top: 0px;
-    
+    font-family: 'Tourney', cursive;
+    font-weight: 400;
+    font-size: 65px;
+    justify-content: end;
+    margin-right: auto;
+    padding-right: 1000px;
+    backdrop-filter: sepia(90%);
+    color: gainsboro;
+}
 
+.bgmain h3{
+    font-family: 'Tourney', cursive;
+    font-weight: 400;
+    color: gainsboro;
+    font-size: 175px;
+    padding-right: 170px;
+    backdrop-filter: blur(300px);
 }
 
 .bgmain img{
@@ -44,7 +56,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
-li,a {
+a {
     font-family: "Montserrat",sans-serif;
     font-weight:500;
     font-size: 16px;
@@ -52,35 +64,40 @@ li,a {
     text-decoration: none;
 }
 
-header {
-display: flex;
+.navbar{
+    display: flex;
+flex-direction: row;
 justify-content: space-between;
 align-items: center;
-padding: 3px 10%;
 background-color: #040720;
+z-index: 2;
+position: fixed;
+width: 100%;
 }
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
+    padding-left: 65px;
     width: 77px;
     height: 70px;
 }
 
 .nav_links {
     list-style: none;
-}
-
-.nav_links li{
     display: inline-block;
     padding: 0px 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
 
-.nav_links li a {
+
+.nav_links a {
     transition: all 0.3s ease 0s;
+    padding-left: 30px;
+    justify-content: flex-end;
 }
 
-.nav_links li a:hover {
+.nav_links a:hover {
     color: #0088a9;
 }
-
