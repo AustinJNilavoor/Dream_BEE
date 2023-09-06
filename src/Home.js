@@ -5,7 +5,7 @@ const Home = () => {
             <p>
                 Elevate Your Hostel Life <br />
                  Dreambee Essentials<br/>
-                 Your Comfort Away <br/>From Home
+                 Your Comfort Away <br/>From Home"
             </p>
         </div>
         </>

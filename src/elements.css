@@ -12,10 +12,6 @@
     
 }
 
-:root{
-    --neon-text-color: #f40;
-    --neon-border-color: #08f;
-}
 
 .bgmain p{
     flex-direction:row;
@@ -27,8 +23,6 @@
     padding-right: 10px;
     
 }
-
-
 
 .bgmain img{
     min-height: 96vh;
@@ -58,13 +52,13 @@ a {
 
 .navbar{
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-background-color: #040720;
-z-index: 2;
-position: fixed;
-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040720;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -114,9 +108,7 @@ width: 100%;
 
 }
 
-/* .Columns :hover{
-    transform: translateY(-10px);
-} */
+
 
 .box{
     height: 360px;
@@ -132,7 +124,6 @@ width: 100%;
 
 .box:hover{
     transform: translateY(-40px);
-    transition-property: ;
     transition-duration:0.3s;
     transition-timing-function: ease;
     transition-delay:0s ;
