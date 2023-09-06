@@ -6,36 +6,19 @@
     font-size: calc(10px + 2vmin);
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(2px);
-    padding-top: 100px;
+    padding-top: 270px;
     color: black;
     
     
 }
 .bgmain p{
-    padding-top: 4px;
-    flex-direction:column;
-    font-size: 30px;
-    margin-left: auto
-}
-.bgmain h2{
-    padding-top: 0px;
-    font-family: 'Tourney', cursive;
-    font-weight: 400;
-    font-size: 65px;
-    justify-content: end;
-    margin-right: auto;
-    padding-right: 1000px;
-    backdrop-filter: sepia(90%);
-    color: gainsboro;
-}
-
-.bgmain h3{
+    flex-direction:row;
+    margin-left: auto;
     font-family: 'Tourney', cursive;
     font-weight: 400;
     color: gainsboro;
-    font-size: 175px;
-    padding-right: 170px;
-    backdrop-filter: blur(300px);
+    font-size: 75px;
+    padding-right: 10px;
 }
 
 .bgmain img{
@@ -100,4 +83,15 @@ width: 100%;
 
 .nav_links a:hover {
     color: #0088a9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&family=Tourney:wght@100&display=swap');
+
+.titles h1{
+    font-family: 'Tektur', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    opacity: 80%;
 }
