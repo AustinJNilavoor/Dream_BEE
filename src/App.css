@@ -11,13 +11,12 @@
   height: 100vh;
 }
 .section {
-  background-color: #000;
-  min-height: 100vh;
+  min-height: 96vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
+  padding-top: 100px;
   color: white;
   z-index: 1;
 }
