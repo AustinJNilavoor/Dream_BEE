@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  ;
+  background-image: url("../src/Assets/bkgrnd.png");
+  background-size: contain;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
 }
 .section {
   background-color: #282c34;

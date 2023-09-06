@@ -1,8 +1,6 @@
 .bgmain {
-    background-color: rgba(96, 171, 1, 0.756);
     min-height: 96vh;
     display: flex;
-   
     font-size: calc(10px + 2vmin);
     text-align: left;
     padding-top: 100px;
@@ -24,11 +22,9 @@
 }
 
 .bgmain img{
-    width: 880px;
-    height: 720px;
-    margin-left: auto;
-    margin-top: 0px;
-    padding-top: 4px;
+    min-height: 96vh;
+    padding: 0px;
+    margin: 0;
 }
 
 .himage{
