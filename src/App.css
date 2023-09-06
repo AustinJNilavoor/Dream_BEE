@@ -1,6 +1,7 @@
-.App{
+.App {
   width: 100%;
 }
+
 .bgimage {
   text-align: center;
   background-image: url("../src/Assets/bkgrnd.png");
@@ -10,6 +11,7 @@
   z-index: 0;
   height: 100vh;
 }
+
 .section {
   min-height: 96vh;
   display: flex;
@@ -21,7 +23,8 @@
   color: white;
   z-index: 1;
 }
-.footer{
+
+.footer {
   font-style: normal;
   z-index: 2;
   display: flex;
@@ -34,42 +37,58 @@
   backdrop-filter: blur(2px);
   color: gainsboro;
   font-weight: 400;
-  }
-.sym{
-      padding-right: 100px;
-      color: gainsboro;
-  }
+}
 
-.socials{
+.sym {
+  padding-right: 100px;
+  color: gainsboro;
+}
+
+.socials {
   fill: white;
   color: gainsboro;
 }
-.hidden-desk{
+
+.hidden-desk {
   display: none;
 }
 
 @media screen and (max-width: 500px) {
-  .hidden{
-      display: none;
-      
+  .hidden {
+    display: none;
+
   }
-  .hidden-desk{
+
+  .hidden-desk {
     display: block;
     padding-right: 30px;
     color: yellow;
   }
-  .bgmain{
-    padding-top: 120px;
-    /* max-height: 50vh; */
+
+  .bgmain {
     min-height: 30vh;
   }
-  .bgmain p{
-    font-size: 30px;
+
+  .bgmain p {
+    padding-top: 120px;
+    font-size: 1.7rem;
   }
-  .logo{
+
+  .logo {
     padding-left: 10px;
   }
-  .sym{
+
+  .sym {
     padding-right: 10px;
+  }
+
+  .Columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 0;
+    margin-bottom: 30px;
   }
 }

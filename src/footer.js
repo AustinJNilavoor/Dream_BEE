@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
         <div className="footer">
-            <div Classname="empty"></div>
+            <div Classname="empty hidden"></div>
             <div className="copyr"><h5>©2023 Dream Bee. All Rights Reserved.</h5></div>
               
     <div className="sym">
