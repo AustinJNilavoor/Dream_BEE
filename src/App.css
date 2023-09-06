@@ -44,4 +44,32 @@
   fill: white;
   color: gainsboro;
 }
+.hidden-desk{
+  display: none;
+}
 
+@media screen and (max-width: 500px) {
+  .hidden{
+      display: none;
+      
+  }
+  .hidden-desk{
+    display: block;
+    padding-right: 30px;
+    color: yellow;
+  }
+  .bgmain{
+    padding-top: 120px;
+    /* max-height: 50vh; */
+    min-height: 30vh;
+  }
+  .bgmain p{
+    font-size: 30px;
+  }
+  .logo{
+    padding-left: 10px;
+  }
+  .sym{
+    padding-right: 10px;
+  }
+}
